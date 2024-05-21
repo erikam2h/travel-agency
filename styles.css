@@ -141,17 +141,25 @@ footer {
   border-radius: 5%;
 }
 
-/* 
-@media (min-width: 993px) {
-  .gallery {
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 1fr 2fr;
-  }
+/* Cards style */
+section {
+  margin-bottom: 3rem;
 }
 
-@media (max-width: 600px) {
-  .gallery {
-    grid-template-columns: repeat(2, 1fr); - Two columns for smaller screens -
-  }
-} 
-*/
+.cards-services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 2rem;
+  margin-inline: 1rem;
+  /* max-width: 1024px; */
+}
+
+.card {
+  border: 2px solid darkgrey;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+  flex-basis: 200px;
+  padding-bottom: 1rem;
+}
