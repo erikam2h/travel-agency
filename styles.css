@@ -79,6 +79,15 @@ button {
   margin-top: 2rem;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
 }
+
+footer {
+  background-color: #a67b5b;
+  color: #fff;
+  font-weight: bolder;
+  text-align: center;
+  padding: 1em;
+  margin-top: 2rem;
+}
 .gallery-container {
   max-width: 1600px;
   margin-inline: auto;
